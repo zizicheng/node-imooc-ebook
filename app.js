@@ -344,7 +344,7 @@ app.get("/book/flat-list", (req, res) => {
       res.json({
         error_code: 0,
         msg: "获取成功",
-        data: data,
+        data: result,
         total: results.length
       })
     }
